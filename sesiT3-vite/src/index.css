@@ -1,0 +1,34 @@
+:root {
+    --text-p: #ffff;
+    --text-title: rgb(13, 255, 239);
+    --bg: #1d1d1d;
+    --bg-light: #383838;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--bg);
+    color: var(--text-p);
+}
+
+h1,h2,h3,h4,h5{
+    color: var(--text-title);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: all 200ms ease-out;
+}
+
+a:hover{
+    transition: all 200ms ease-in;
+    color: var( --text-title);
+}
+
