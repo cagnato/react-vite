@@ -49,6 +49,9 @@ function App() {
         />
           </Tilt>
       </section>
+      <div style={{display: "flex", alignItems: "center", justifyContent: "center", width: "100%"}}>
+        <iframe src="https://sino3d.app/ar/2161" frameborder="0" style={{width: "90vw", height: "100%"}}></iframe>
+      </div>
     </>
   )
 }

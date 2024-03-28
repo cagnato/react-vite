@@ -31,4 +31,10 @@ a:hover{
     transition: all 200ms ease-in;
     color: var( --text-title);
 }
+.leaflet-control-attribution{
+    display: none;
+}
 
+.leaflet-control{
+    z-index: 500;
+}
